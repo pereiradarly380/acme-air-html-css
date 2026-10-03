@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ACME AIR - ¿Qué quieres hacer?</title>
+    <link rel="icon" href="img/icono.jpg" sizes="96x96">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    
+
+    <main class="contenedor">
+        <section class="login-card menu--card">
+            <div class="logo logo--menu">
+                <img src="img/logo_menu.jpg" alt="ACME AIR Logo">
+            </div>
+            <div class="login-texto">
+                <h2>¡Hola John Doe!</h2>
+                <h3>¿Qué quieres hacer?</h3>
+                <a href="index.html" class="logout-link">Cerrar Sesión</a>
+            </div>
+            <nav class="menu-grid">
+
+                <a href="buscar-vuelos.html" class="menu-item">
+                    <div class="menu-item-info">
+                        <img src="img/icons/vuelos.png" alt="Icono buscar" class="icono-opcion">
+                        <span>Buscar vuelos</span>
+                    </div>
+                    <span class="flecha">&rsaquo;</span>
+                </a>
+
+                <a href="checkin.html" class="menu-item">
+                    <div class="menu-item-info">
+                        <img src="img/icons/check.png" alt="Icono check-in" class="icono-opcion">
+                        <span>Check In</span>
+                    </div>
+                    <span class="flecha">&rsaquo;</span>
+                </a>
+                
+                <a href="mis-vuelos.html" class="menu-item">
+                    <div class="menu-item-info">
+                        <img src="img/icons/misvuelos.png" alt="Icono mis vuelos" class="icono-opcion">
+                        <span>Mis Vuelos</span>
+                    </div>
+                    <span class="flecha">&rsaquo;</span>
+                </a>
+            </nav>
+        </section>
+    </main>
+
 </body>
 </html>

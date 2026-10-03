@@ -8,6 +8,10 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -128,4 +132,34 @@ body {
     text-align: center;
     margin: 22px 0 0;
     font-size: 13px;
+}
+.login-texto {
+    text-align: center;
+    padding: 24px 20px 10px 20px;
+}
+
+.login-texto h2 {
+    color: var(--texto);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.login-texto h3 {
+    color: #555555;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.logout-link {
+    color: #888888;
+    font-size: 0.95rem;
+    text-decoration: underline;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.logout-link:hover {
+    color: #d6006e;
 }
