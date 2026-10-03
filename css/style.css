@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --rosa: #d13cff;
+    --azul: #00b0ff;
+    --blanco: #ffffff;
+    --gris: #f4f4f4;
+    --texto: #333333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, var(--rosa), var(--azul));
+    min-height: 100vh;
+    color: var(--texto);
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 430px;
+    background: var(--blanco);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.login-header p {
+    margin: 5px 0 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.campo input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: inherit;
+    outline: none;
+    transition: 0.3s;
+}
+
+.campo input:focus {
+    border-color: var(--azul);
+    box-shadow: 0 0 0 3px rgba(0, 176, 255, 0.15);
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+    font-size: 12px;
+}
+
+.opciones a,
+.registro-link a {
+    color: #008fd1;
+    font-weight: 600;
+}
+
+.opciones a:hover,
+.registro-link a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, var(--rosa), var(--azul));
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+}
+
+.registro-link {
+    text-align: center;
+    margin: 22px 0 0;
+    font-size: 13px;
+}
