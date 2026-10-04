@@ -70,7 +70,7 @@
 .menu-grid {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     padding: 10px 24px 30px 24px;
 }
 
@@ -100,8 +100,13 @@
 
 .icono-opcion {
     width: 60px;
-    height: 35px;
+    height: auto;
     object-fit: contain;
+}
+
+.icon--misvuelos{
+    width: 49px;
+    height: auto;
 }
 
 .menu-item-info span {
@@ -112,6 +117,6 @@
 
 .flecha {
     color: #777777;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
