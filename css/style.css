@@ -5,7 +5,6 @@
     --gris: #f4f4f4;
     --texto: #333333;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -66,73 +65,6 @@ body {
     font-size: 14px;
 }
 
-.campo {
-    margin-bottom: 18px;
-}
-
-.campo label {
-    display: block;
-    margin-bottom: 7px;
-    font-weight: 500;
-}
-
-.campo input {
-    width: 100%;
-    padding: 13px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-family: inherit;
-    outline: none;
-    transition: 0.3s;
-}
-
-.campo input:focus {
-    border-color: var(--azul);
-    box-shadow: 0 0 0 3px rgba(0, 176, 255, 0.15);
-}
-
-.opciones {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 22px;
-    font-size: 12px;
-}
-
-.opciones a,
-.registro-link a {
-    color: #008fd1;
-    font-weight: 600;
-}
-
-.opciones a:hover,
-.registro-link a:hover {
-    text-decoration: underline;
-}
-
-.btn-primary {
-    display: block;
-    width: 100%;
-    padding: 14px;
-    border-radius: 10px;
-    background: linear-gradient(90deg, var(--rosa), var(--azul));
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
-    transition: 0.3s;
-}
-
-.btn-primary:hover {
-    transform: scale(1.02);
-}
-
-.registro-link {
-    text-align: center;
-    margin: 22px 0 0;
-    font-size: 13px;
-}
 .login-texto {
     text-align: center;
     padding: 24px 20px 10px 20px;

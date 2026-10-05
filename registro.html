@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ACME AIR - Registro</title>
+    <link rel="icon" href="img/icono.jpg" sizes="96x96">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    
+    <main class="contenedor">
+        <section class="login-card">
+             <div class="logo logo--menu">
+                <img src="img/logo_menu.jpg" alt="ACME AIR Logo">
+            </div>
+
+            <div class="login-header">
+                <h2>Registro</h2>
+            </div>
+
+            <form action="crear-contraseña.html" method="GET">
+
+                <div class="campo-registro">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required >
+                </div>
+
+                <div class="campo-registro">
+                    <input type="text" id="identificacion" name="identificacion" placeholder="No. Identificación" required>
+                </div>
+
+                <div class="campo-registro">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="campo-registro">
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+                </div>
+                
+                <div class="campo-registro">
+                    <select id="ciudad" name="ciudad" required>
+                        <option value="" disabled selected hidden>Ciudad</option>
+                        <option value="bogota">Bogotá</option>
+                        <option value="medellin">Medellín</option>
+                        <option value="cali">Cali</option>
+                        <option value="barranquilla">Barranquilla</option>
+                        <option value="bucaramanga">Bucaramanga</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-guardar">GUARDAR</button>
+
+            </form>
+
+        </section>
+    </main>
 </body>
 </html>

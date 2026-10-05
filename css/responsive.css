@@ -1,5 +1,5 @@
-/*Dispositivos pequeños (320px)*/
-@media (max-width: 380px) {
+/*Dispositivos pequeños*/
+@media (min-width: 480px) {
     .card {
         padding: 20px 15px;
     }
@@ -17,6 +17,7 @@
     .login-card {
         max-width: 290px;
         border-radius: 12px;
+        padding: 20px;
     }
 
     .login-texto h2 {
@@ -37,9 +38,26 @@
     }
 
     .icono-opcion {
-        width: 28px;
-        height: 28px;
+        width: 40px;
+        height: 40px;
     }
+
+    .logo-menu {
+        width: 100%;
+        margin: 0 auto 15px auto;
+        padding: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    
+    .logo-menu img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+    
 }
 
 /*Tablet (768px - 1024px)*/
@@ -49,7 +67,7 @@
     }
 
     .card {
-        max-width: 480px; /*Incremento suave de área centrada*/
+        max-width: 480px; 
     }
 
     .login-card {
@@ -75,17 +93,47 @@
 
     .menu-item {
         padding: 12px 14px;
+        font-size: 1,5rem;
+    }
+
+    .logo--menu {
+        width: calc(100% + 40px); 
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        overflow: hidden;
+    }
+
+    .logo--menu img {
+        width: 100%;
+        height: auto;
+        max-height: 160px; 
+        display: block;
+        object-fit: contain;
+    }
+    .campo-registro input,
+    .campo-registro select {
+        padding: 12px 14px;
+        font-size: 0.95rem;
+    }
+
+    .btn-guardar {
+        padding: 12px;
+        font-size: 0.95rem;
     }
 }
 
 /*(1024px en adelante)*/
 @media (min-width: 1024px) {
     .contenedor {
-        padding: 0 80px;
-        min-height: 100vh;
+        padding: 10px 8px;
     }
 
     .login-card {
-        max-width: 420px;
+        max-width: 290px;
+        border-radius: 12px;
+        padding: 20px;
     }
 }
