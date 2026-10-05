@@ -8,7 +8,7 @@
     font-weight: 500;
 }
 
-.campo input {
+.campo input:not([type="checkbox"]) {
     width: 100%;
     padding: 13px;
     border: 1px solid #ddd;
@@ -16,6 +16,19 @@
     font-family: inherit;
     outline: none;
     transition: 0.3s;
+}
+
+.campo input:not([type="checkbox"]):focus {
+    border-color: var(--dorado);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+}
+
+.campo input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin: 0 6px 0 0;
+    accent-color: var(--dorado);
+    cursor: pointer;
 }
 
 .campo input:focus {

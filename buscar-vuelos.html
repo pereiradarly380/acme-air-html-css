@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    
+    <main class="contenedor">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <h1>ACME AIR</h1>
+            </div>
+
+            <div class="login-header">
+                <h2>Buscar vuelos</h2>
+                <p>Encuentra el vuelo ideal para tu viaje</p>
+            </div>
+
+            <form action="vuelos.html">
+
+                <div class="campo">
+                    <label for="origen">Origen</label>
+                    <input
+                        type="text"
+                        id="origen"
+                        name="origen"
+                        placeholder="Ciudad de origen"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="destino">Destino</label>
+                    <input
+                        type="text"
+                        id="destino"
+                        name="destino"
+                        placeholder="Ciudad de destino"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="salida">Fecha de salida</label>
+                    <input
+                        type="date"
+                        id="salida"
+                        name="salida"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="regreso">Fecha de regreso</label>
+                    <input
+                        type="date"
+                        id="regreso"
+                        name="regreso">
+                </div>
+
+                <div class="campo">
+                    <label>
+                        <input type="checkbox" name="solo_ida">
+                        Solo ida
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    Buscar vuelos
+                </button>
+
+            </form>
+
+            <p class="registro-link">
+                <a href="menu.html">Volver al menú</a>
+            </p>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
