@@ -196,4 +196,22 @@
 
 .btn-guardar:active {
     transform: translateY(0);
-}    
+}  
+
+.btn-volver{
+    display:block;
+    width:100%;
+    padding:12px;
+    text-align:center;
+    text-decoration:none;
+    font-size:.85rem;
+    font-weight:600;
+    color:var(--blanco);
+    background:#2196f3;
+    border-radius:6px;
+    box-shadow:0 4px 10px rgba(33,150,243,.35);
+    transition:transform .2s;
+}
+.btn-volver:hover{
+    transform:scale(1.02)
+}

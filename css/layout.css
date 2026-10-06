@@ -75,3 +75,103 @@
     display: block;
     object-fit: cover;
 }
+
+
+.usuario-header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+.usuario-avatar{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    object-fit:cover
+}
+
+.usuario-header h2{
+    font-size:1.2rem;
+    color:var(--texto);
+    line-height:1.2
+}
+
+.usuario-header .logout-link{
+    font-size:.85rem;
+    color:#444
+}
+
+.vuelos-titulo{
+    text-align:center;
+    margin:22px 0 14px
+}
+
+.vuelos-titulo h3{
+    font-size:1.1rem;
+    font-weight:600;
+    color:var(--texto)
+}
+
+.vuelos-resumen{
+    margin-bottom:16px;
+    font-size:.9rem;
+    color:#555
+}
+
+.lista-vuelos{
+    list-style:none;
+    display:grid;
+    gap:16px;
+    margin-bottom:24px
+}
+
+.vuelo-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px;
+    background:var(--blanco);
+    border:1px solid #e2e2e2;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.12);
+}
+.vuelo-icono{width:34px;
+    height:auto;
+    object-fit:contain
+}
+
+.vuelo-horario{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    font-size:.75rem;
+    color:#777
+}
+
+.vuelo-horario strong{
+    font-size:.85rem;
+    font-weight:500;
+    color:#555
+}
+
+.vuelo-detalle{
+    text-align:right;
+    font-size:.75rem;
+    color:#777
+}
+
+.vuelo-precio{
+    margin:2px 0 0;
+    font-size:1.15rem;
+    font-weight:700;
+    color:#777
+}
+
+.vuelo-precio small{font-size:.8rem;
+    font-weight:500
+}
+
+.login-card.vuelos-card{
+    max-width: 420px;
+}

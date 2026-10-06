@@ -1,88 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>ACME AIR - Buscar Vuelos</title>
+    <link rel="icon" href="img/icono.jpg" sizes="96x96">
+    
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <main class="contenedor">
-
         <section class="login-card">
-
-            <div class="logo">
-                <h1>ACME AIR</h1>
+             <div class="logo logo--menu">
+                <img src="img/logo_menu.jpg" alt="ACME AIR Logo">
             </div>
-
             <div class="login-header">
-                <h2>Buscar vuelos</h2>
-                <p>Encuentra el vuelo ideal para tu viaje</p>
+                <h2>Buscar Vuelos</h2>
             </div>
-
-            <form action="vuelos.html">
-
-                <div class="campo">
-                    <label for="origen">Origen</label>
-                    <input
-                        type="text"
-                        id="origen"
-                        name="origen"
-                        placeholder="Ciudad de origen"
-                        required>
+            <form action="vuelos.html" method="GET">
+                <div class="campo-registro">
+                    <input type="text" id="origen" name="origen" placeholder="Ciudad de Origen" required>
                 </div>
-
-                <div class="campo">
-                    <label for="destino">Destino</label>
-                    <input
-                        type="text"
-                        id="destino"
-                        name="destino"
-                        placeholder="Ciudad de destino"
-                        required>
+                <div class="campo-registro">
+                    <input type="text" id="destino" name="destino" placeholder="Ciudad de Destino" required>
                 </div>
-
-                <div class="campo">
-                    <label for="salida">Fecha de salida</label>
-                    <input
-                        type="date"
-                        id="salida"
-                        name="salida"
-                        required>
+                <div class="campo-registro">
+                    <input type="date" id="fecha-salida" name="fecha-salida" required>
                 </div>
-
-                <div class="campo">
-                    <label for="regreso">Fecha de regreso</label>
-                    <input
-                        type="date"
-                        id="regreso"
-                        name="regreso">
+                <div class="campo-registro" id="campo-regreso">
+                    <input type="date" id="fecha-regreso" name="fecha-regreso">
                 </div>
-
-                <div class="campo">
-                    <label>
-                        <input type="checkbox" name="solo_ida">
-                        Solo ida
+                <div class="checkbox-fila">
+                    <label class="check-label">
+                        <input type="checkbox" id="solo-ida" name="solo-ida"> Solo ida
                     </label>
                 </div>
-
-                <button type="submit" class="btn-primary">
-                    Buscar vuelos
-                </button>
-
+                <button type="submit" class="btn-guardar">BUSCAR</button>
             </form>
-
-            <p class="registro-link">
-                <a href="menu.html">Volver al menú</a>
-            </p>
-
         </section>
-
     </main>
-
 </body>
 </html>

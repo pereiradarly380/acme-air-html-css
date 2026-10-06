@@ -1,79 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACME AIR - vuelos</title>
-    
+    <title>ACME AIR - Vuelos disponibles</title>
+    <link rel="icon" href="img/icono.jpg" sizes="96x96">
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <main class="contenedor">
+        <section class="login-card menu--card vuelos-card">
 
-        <section class="seccion">
-
-            <div class="login-header">
-                <h1>ACME AIR</h1>
-                <h2>Vuelos disponibles</h2>
-                <p>Encuentra el vuelo ideal para tu viaje</p>
+            <div class="logo logo--menu">
+                <img src="img/logo_menu.jpg" alt="ACME AIR Logo">
             </div>
 
-            <div class="tabla-contenedor">
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Ruta</th>
-                            <th>Fecha</th>
-                            <th>Hora</th>
-                            <th>Precio</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Bogotá → Medellín</td>
-                            <td>10/10/2026</td>
-                            <td>08:30</td>
-                            <td>$180.000</td>
-                        </tr>
-
-                        <tr>
-                            <td>Bogotá → Cartagena</td>
-                            <td>12/10/2026</td>
-                            <td>10:00</td>
-                            <td>$250.000</td>
-                        </tr>
-
-                        <tr>
-                            <td>Medellín → Cali</td>
-                            <td>15/10/2026</td>
-                            <td>14:30</td>
-                            <td>$190.000</td>
-                        </tr>
-
-                        <tr>
-                            <td>Cali → Bogotá</td>
-                            <td>18/10/2026</td>
-                            <td>17:00</td>
-                            <td>$210.000</td>
-                        </tr>
-                    </tbody>
-                </table>
-
+            <div class="usuario-header">
+                <img src="img/icons/icon-perfil.jpg" alt="Icono de usuario" class="usuario-avatar">
+                <div>
+                    <h2>John Doe</h2>
+                    <a href="index.html" class="logout-link">Cerrar Sesión</a>
+                </div>
             </div>
 
-            <br>
+            <div class="vuelos-titulo">
+                <h3>Vuelos disponibles</h3>
+            </div>
 
-            <a href="menu.html" class="btn-primary">
-                Volver al menú
-            </a>
+            <div class="vuelos-resumen">
+                <p>Bogotá - Barranquilla</p>
+                <p>Septiembre - 29</p>
+            </div>
+
+            <ul class="lista-vuelos">
+
+                <li class="vuelo-item">
+                    <img src="img/icons/icon-viajes.jpg" alt="" class="vuelo-icono">
+                    <div class="vuelo-horario">
+                        <span>05:30 - 06:30</span>
+                        <strong>1h 30 min</strong>
+                    </div>
+                    <div class="vuelo-detalle">
+                        <span>VAA025</span>
+                        <p class="vuelo-precio"><small>COP</small> 150.600</p>
+                    </div>
+                </li>
+
+                <li class="vuelo-item">
+                    <img src="img/icons/icon-viajes.jpg" alt="" class="vuelo-icono">
+                    <div class="vuelo-horario">
+                        <span>10:30 - 12:05</span>
+                        <strong>1h 30 min</strong>
+                    </div>
+                    <div class="vuelo-detalle">
+                        <span>VAA412</span>
+                        <p class="vuelo-precio"><small>COP</small> 260.050</p>
+                    </div>
+                </li>
+
+                <li class="vuelo-item">
+                    <img src="img/icons/icon-viajes.jpg" alt="" class="vuelo-icono">
+                    <div class="vuelo-horario">
+                        <span>14:15 - 15:45</span>
+                        <strong>1h 30 min</strong>
+                    </div>
+                    <div class="vuelo-detalle">
+                        <span>VAA836</span>
+                        <p class="vuelo-precio"><small>COP</small> 150.600</p>
+                    </div>
+                </li>
+
+            </ul>
+
+            <a href="menu.html" class="btn-volver">VOLVER</a>
 
         </section>
-
     </main>
 </body>
 </html>
