@@ -152,6 +152,18 @@
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+.campo-registro input[type="checkbox"]{
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.campo-solo-ida{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .campo-registro input::placeholder {
     color: #888888;
 }
