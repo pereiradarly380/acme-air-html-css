@@ -199,6 +199,7 @@
     box-shadow: 0 4px 6px rgba(20, 163, 251, 0.2);
     transition: background-color 0.2s ease, transform 0.4s ease;
     background: linear-gradient(90deg, #C90A8F, #2847CE);
+    text-decoration: none;
 }
 
 .btn-guardar:hover {

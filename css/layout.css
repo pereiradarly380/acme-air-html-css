@@ -112,6 +112,10 @@
     font-weight:600;
     color:var(--texto)
 }
+.title--check-in h3{
+    font-size: 1.5rem;
+    
+}
 
 .vuelos-resumen{
     margin-bottom:16px;
@@ -174,4 +178,18 @@
 
 .login-card.vuelos-card{
     max-width: 420px;
+}
+
+.check-item {
+    align-items:center;
+    gap:12px;
+    padding:14px;
+    background:var(--blanco);
+    border:1px solid #e2e2e2;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.12);
+}
+
+.check-item h3 {
+    text-align: center;
 }
