@@ -180,7 +180,6 @@
     max-width: 420px;
 }
 
-<<<<<<< HEAD
 /*mis vuelos*/
 .mv-lista{
     list-style:none;
@@ -219,7 +218,8 @@
 
 .mv-detalle{
     text-align:right;
-=======
+}
+
 .check-item {
     align-items:center;
     gap:12px;
@@ -232,5 +232,5 @@
 
 .check-item h3 {
     text-align: center;
->>>>>>> 3f4f84732211537a5f43142a28e67fb603d431d3
+
 }
