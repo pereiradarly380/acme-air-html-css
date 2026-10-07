@@ -163,3 +163,26 @@
         justify-self: start;
     }
 }
+
+/*mis vuelos*/
+@media (max-width: 480px) {
+    .mv-vuelo{
+        padding:12px;
+        gap:10px;
+    }
+
+    .mv-icono{
+        width:34px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mv-horario,
+    .mv-detalle{
+        font-size:.85rem;
+    }
+
+    .mv-estado{
+        font-size:1.2rem;
+    }
+}

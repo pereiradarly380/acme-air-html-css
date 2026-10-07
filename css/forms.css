@@ -243,3 +243,97 @@
 .btn-seleccionar:hover {
     transform: scale(1.05);
 }
+
+.vuelo-card {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    min-height: 230px;
+}
+
+.vuelo-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vuelo-card-header small {
+    display: block;
+    color: #999;
+    font-size: 10px;
+}
+
+.vuelo-card-header strong {
+    font-size: 15px;
+}
+
+.vuelo-card-header span {
+    background: #f3e5ff;
+    color: #a12bd4;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.ruta-vuelo {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.ruta-vuelo small {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.ruta-vuelo strong {
+    font-size: 21px;
+}
+
+.icono-ruta {
+    color: #d13cff;
+    font-size: 22px;
+}
+
+.datos-vuelo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.datos-vuelo small {
+    display: block;
+    color: #999;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.datos-vuelo strong {
+    font-size: 13px;
+}
+
+.btn-volver {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}

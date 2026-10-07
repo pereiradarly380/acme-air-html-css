@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ACME AIR - Mis vuelos</title>
+    <link rel="icon" href="img/logo_menu.jpg" sizes="96x96">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    
 </head>
 <body>
-    
+    <main class="contenedor">
+        <section class="login-card menu--card vuelos-card">
+
+            <div class="logo logo--menu">
+                <img src="img/logo_menu.jpg" alt="ACME AIR Logo">
+            </div>
+
+            <div class="usuario-header">
+                <img src="img/icons/icon-perfil.jpg" alt="Icono de usuario" class="usuario-avatar">
+                <div>
+                    <h2>John Doe</h2>
+                    <a href="index.html" class="logout-link">Cerrar Sesión</a>
+                </div>
+            </div>
+
+            <div class="vuelos-titulo">
+                <h3>Mis Vuelos</h3>
+            </div>
+
+            <ul class="mv-lista">
+
+                <li class="mv-vuelo">
+                    <img src="img/icons/icon-viajes.jpg" alt="" class="mv-icono">
+                    <div class="mv-horario">
+                        <span>05:30 - 06:30</span>
+                        <strong>1h 30 min</strong>
+                        <span>Sep 29</span>
+                    </div>
+                    <div class="mv-detalle">
+                        <span>VAA025</span>
+                        <p class="mv-estado">A TIEMPO</p>
+                        <span>Bogotá - Barranquilla</span>
+                    </div>
+                </li>
+
+                <li class="mv-vuelo">
+                    <img src="img/icons/icon-viajes.jpg" alt="" class="mv-icono">
+                    <div class="mv-horario">
+                        <span>10:30 - 12:00</span>
+                        <strong>1h 30 min</strong>
+                        <span>Jul 05</span>
+                    </div>
+                    <div class="mv-detalle">
+                        <span>VAA185</span>
+                        <p class="mv-estado">ATERRIZÓ</p>
+                        <span>Bogotá - Barranquilla</span>
+                    </div>
+                </li>
+
+                <li class="mv-vuelo">
+                    <img src="img/icons/icon-viajes.jpg" alt="" class="mv-icono">
+                    <div class="mv-horario">
+                        <span>05:30 - 06:30</span>
+                        <strong>1h 30 min</strong>
+                        <span>Feb 04</span>
+                    </div>
+                    <div class="mv-detalle">
+                        <span>VAA800</span>
+                        <p class="mv-estado">ATERRIZÓ</p>
+                        <span>Bogotá - Medellin</span>
+                    </div>
+                </li>
+
+            </ul>
+
+            <a href="menu.html" class="btn-volver">VOLVER</a>
+
+        </section>
+    </main>
 </body>
 </html>

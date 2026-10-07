@@ -95,3 +95,24 @@ body {
 .logout-link:hover {
     color: #d6006e;
 }
+
+/*mis viajes*/
+.mv-horario,
+.mv-detalle{
+    font-size:.75rem;
+    color:#777;
+}
+
+.mv-horario strong{
+    font-size:.85rem;
+    font-weight:500;
+    color:#555;
+}
+
+.mv-estado{
+    margin:0;
+    font-size:1.05rem;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#777;
+}

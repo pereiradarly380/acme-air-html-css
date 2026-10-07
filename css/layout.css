@@ -175,3 +175,43 @@
 .login-card.vuelos-card{
     max-width: 420px;
 }
+
+/*mis vuelos*/
+.mv-lista{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    margin:0 0 24px;
+    padding:0;
+}
+
+.mv-vuelo{
+    display:grid;
+    grid-template-columns:auto 1fr auto;
+    align-items:center;
+    gap:12px;
+    width:100%;
+    padding:14px;
+    background:#ffffff;
+    border:1px solid #e2e2e2;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.18);
+}
+
+.mv-icono{
+    width:40px;
+    height:auto;
+    object-fit:contain;
+}
+
+.mv-horario,
+.mv-detalle{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+
+.mv-detalle{
+    text-align:right;
+}
