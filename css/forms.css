@@ -215,3 +215,19 @@
 .btn-volver:hover{
     transform:scale(1.02)
 }
+
+.btn-seleccionar {
+    display: inline-block;
+    padding: 6px 12px;
+    background: linear-gradient(90deg, #d13cff, #00b0ff);
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.btn-seleccionar:hover {
+    transform: scale(1.05);
+}
