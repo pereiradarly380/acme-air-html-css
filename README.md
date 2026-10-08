@@ -397,7 +397,9 @@ Se aplicaron algunas prácticas básicas de accesibilidad:
 
 **Proyecto académico - ACME AIR**
 
-Desarrollado como parte del proceso de formación en desarrollo web.
+* ***Sara Borda***
+
+* ***Darly Cuteño***
 
 ---
 
