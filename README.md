@@ -41,6 +41,8 @@ Permite al usuario ingresar a la aplicación mediante:
 
 **Archivo:** `index.html`
 
+[Vista previa](img/cap.png)
+
 ---
 
 ### Registro
@@ -57,6 +59,8 @@ Al guardar la información, el usuario es dirigido a la creación de contraseña
 
 **Archivo:** `registro.html`
 
+[Vista previa](img/cap.png)
+
 ---
 
 ### Crear contraseña
@@ -64,6 +68,8 @@ Al guardar la información, el usuario es dirigido a la creación de contraseña
 Permite establecer una contraseña para completar el proceso de registro.
 
 **Archivo:** `crear-contraseña.html`
+
+[Vista previa](img/cap.png)
 
 ---
 
@@ -80,6 +86,8 @@ Desde esta vista el usuario puede acceder a:
 
 **Archivo:** `menu.html`
 
+[Vista previa](img/cap.png)
+
 ---
 
 ### Buscar vuelos
@@ -95,6 +103,8 @@ Permite seleccionar:
 El formulario dirige a la pantalla de vuelos disponibles.
 
 **Archivo:** `buscar-vuelos.html`
+
+[Vista previa](img/cap.png)
 
 ---
 
@@ -116,6 +126,8 @@ La presentación de los vuelos se adapta al tamaño de pantalla:
 
 **Archivo:** `vuelos.html`
 
+[Vista previa](img/cap.png)
+
 ---
 
 ### Check-in
@@ -123,6 +135,8 @@ La presentación de los vuelos se adapta al tamaño de pantalla:
 Permite simular el proceso de check-in de un pasajero mediante un formulario.
 
 **Archivo:** `checkin.html`
+
+[Vista previa](img/cap.png)
 
 ---
 
@@ -143,6 +157,8 @@ Cada tarjeta muestra:
 
 **Archivo:** `mis-vuelos.html`
 
+[Vista previa](img/cap.png)
+
 ---
 
 ### Recuperar contraseña
@@ -150,6 +166,8 @@ Cada tarjeta muestra:
 Permite iniciar el proceso de recuperación de contraseña mediante el correo electrónico del usuario.
 
 **Archivo:** `recuperar.html`
+
+[Vista previa](img/cap.png)
 
 ---
 
