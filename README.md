@@ -41,7 +41,7 @@ Permite al usuario ingresar a la aplicación mediante:
 
 **Archivo:** `index.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\index.html.png)
 
 ---
 
@@ -59,7 +59,7 @@ Al guardar la información, el usuario es dirigido a la creación de contraseña
 
 **Archivo:** `registro.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\registro.html.png)
 
 ---
 
@@ -69,7 +69,7 @@ Permite establecer una contraseña para completar el proceso de registro.
 
 **Archivo:** `crear-contraseña.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\crear-contraseña.html.png)
 
 ---
 
@@ -86,7 +86,7 @@ Desde esta vista el usuario puede acceder a:
 
 **Archivo:** `menu.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\menu.html.png)
 
 ---
 
@@ -104,7 +104,7 @@ El formulario dirige a la pantalla de vuelos disponibles.
 
 **Archivo:** `buscar-vuelos.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\buscar-vuelos.html.png)
 
 ---
 
@@ -126,7 +126,7 @@ La presentación de los vuelos se adapta al tamaño de pantalla:
 
 **Archivo:** `vuelos.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\vuelos.html.png)
 
 ---
 
@@ -136,7 +136,7 @@ Permite simular el proceso de check-in de un pasajero mediante un formulario.
 
 **Archivo:** `checkin.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\checkin.html.png)
 
 ---
 
@@ -157,7 +157,7 @@ Cada tarjeta muestra:
 
 **Archivo:** `mis-vuelos.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\mis-vuelos.html.png)
 
 ---
 
@@ -167,7 +167,7 @@ Permite iniciar el proceso de recuperación de contraseña mediante el correo el
 
 **Archivo:** `recuperar.html`
 
-[Vista previa](img/cap.png)
+[Vista previa](c:\Users\perei\OneDrive\Imágenes\Screenshots\recuperar.html.png)
 
 ---
 
