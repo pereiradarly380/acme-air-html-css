@@ -1,211 +1,292 @@
-/*Dispositivos pequeños*/
+/* ========================================
+   MÓVIL PEQUEÑO - 320px
+   ======================================== */
+
 @media (min-width: 320px) {
-    .card {
-        padding: 20px 15px;
-    }
-
-    .opciones {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
 
     .contenedor {
-        padding: 10px 8px;
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
     }
 
     .login-card {
-        max-width: 290px;
-        border-radius: 12px;
-        padding: 20px;
-    }
-
-    .login-texto h2 {
-        font-size: 1.2rem;
-    }
-
-    .login-texto h3 {
-        font-size: 0.9rem;
-    }
-
-    .menu-grid {
-        gap: 10px;
-        padding: 8px 12px 18px;
-    }
-
-    .menu-item {
-        padding: 10px 12px;
-    }
-
-    .icono-opcion {
-        width: 40px;
-        height: 40px;
-    }
-
-    .logo--menu {
         width: 100%;
-        margin: 0 0 15px 0;
-        margin-bottom: 12px;
-    }
-    
-    .logo--menu img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-        border-radius: 12px;
-    }   
-    
-    .mv-vuelo{
-        padding:12px;
-        gap:10px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 18px;
+        box-sizing: border-box;
     }
 
-    .mv-icono{
-        width:34px;
-    }
-}
-
-/*Tablet (768px)*/
-@media (min-width: 768px) {
-    .contenedor {
-        padding: 30px 20px
+    /* Tipografía proporcional */
+    h1 {
+        font-size: 1.6rem;
     }
 
-    .card {
-        max-width: 480px; 
-    }
-
-    .login-card {
-        max-width: 600px;
-        padding: 30px;
-    }
-
-    .login-texto {
-        padding: 20px 16px 10px;
-    }
-
-    .login-texto h2 {
+    h2 {
         font-size: 1.4rem;
     }
 
-    .login-texto h3 {
-        font-size: 1rem;
+    h3 {
+        font-size: 1.2rem;
     }
 
-    .menu-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 20px;
+    p,
+    label,
+    input,
+    select,
+    button {
+        font-size: 0.9rem;
     }
 
-    .menu-item {
-        padding: 12px 14px;
-        font-size: 1,5rem;
-    }
-
-    .logo--menu {
+    /* Formularios fluidos */
+    .campo-registro {
         width: 100%;
-        margin: 0 0 20px 0;
-    }
-
-    .logo--menu img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
     }
 
     .campo-registro input,
     .campo-registro select {
-        padding: 12px 14px;
-        font-size: 0.95rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
-    .btn-guardar {
-        padding: 12px;
-        font-size: 0.95rem;
+    /* Botones */
+    .btn-guardar,
+    .btn-volver {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
+    /* Vuelos */
     .lista-vuelos {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 15px;
+        padding: 0;
     }
 
-    .vuelo-item {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 10px;
-        align-items: center;
+    .vuelo-item,
+    .vuelo-card {
+        width: 100%;
+        box-sizing: border-box;
     }
 
-    .vuelo-detalle {
-        grid-column: 2;
+    /* Datos de vuelos */
+    .datos-vuelo {
+        grid-template-columns: 1fr;
+        gap: 12px;
     }
 
-    .btn-seleccionar {
-        grid-column: 2;
-        justify-self: start;
+    .ruta-vuelo {
+        gap: 8px;
     }
 
-    .mv-horario,
-    .mv-detalle{
-        font-size:.85rem;
+    .ruta-vuelo strong {
+        font-size: 18px;
     }
 
-    .mv-estado{
-        font-size:1.2rem;
+    /* Check-in */
+    .lista-vuelos .check-item {
+        grid-column: 1 / -1;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 18px;
+    }
+
+    .check-item input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 }
 
-/*(1024px en adelante)*/
-@media (min-width: 1024px) {
+
+/* ========================================
+   TABLET - 768px
+   ======================================== */
+
+@media (min-width: 768px) {
+
     .contenedor {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 40px 80px; 
-        min-height: 100vh;
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .login-card {
+        width: 90%;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 28px;
+        box-sizing: border-box;
+    }
+
+    /* Tipografía proporcional */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p,
+    label,
+    input,
+    select,
+    button {
+        font-size: 1rem;
+    }
+
+    /* Formularios fluidos */
+    .campo-registro {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .campo-registro input,
+    .campo-registro select {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Vuelos en dos columnas */
+    .lista-vuelos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        padding: 0;
+    }
+
+    .vuelo-item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Tarjetas */
+    .vuelo-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    /* Check-in ocupa las dos columnas */
+    .lista-vuelos .check-item {
+        grid-column: 1 / -1;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    .check-item input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* ========================================
+   DESKTOP - 1024px
+   ======================================== */
+
+@media (min-width: 1024px) {
+
+    body {
+        padding: 0;
+    }
+
+    .contenedor {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 60px;
+        box-sizing: border-box;
     }
 
     .login-card {
         width: 100%;
-        max-width: 900px;
-        border-radius: 20px;
-        padding: 40px;
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 35px;
+        box-sizing: border-box;
     }
 
-    .menu-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-        gap: 24px;
+    /* Tipografía proporcional */
+    h1 {
+        font-size: 2.2rem;
     }
 
-    .logo--menu {
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p,
+    label,
+    input,
+    select,
+    button {
+        font-size: 1rem;
+    }
+
+    /* Formularios fluidos */
+    .campo-registro {
         width: 100%;
-        margin: 0 0 20px 0;
+        max-width: 100%;
     }
 
-    .logo--menu img {
+    .campo-registro input,
+    .campo-registro select {
         width: 100%;
-        height: auto;
-        object-fit: contain; 
-        border-radius: 12px;  
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
-    /*.mv-vuelo
-    .mv-estado
-    .mv-detalle
-    .mv-horario {
+    /* Vuelos */
+    .lista-vuelos {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
-    } */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0;
+    }
 
     .vuelo-item {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
+    /* Tarjetas */
+    .vuelo-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 28px;
+        box-sizing: border-box;
+    }
 
+    /* Check-in */
+    .lista-vuelos .check-item {
+        grid-column: 1 / -1;
+        width: 100%;
+        max-width: 100%;
+        padding: 28px;
+        box-sizing: border-box;
+    }
+
+    .check-item input {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
