@@ -67,6 +67,8 @@
     font-weight: 600;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
     transition: 0.3s;
+    cursor: pointer;
+
 }
 
 .btn-primary:hover {
@@ -203,7 +205,6 @@
 }
 
 .btn-guardar:hover {
-    background-color: var(--azul);
     transform: translateY(-1px);
 }
 
@@ -220,10 +221,11 @@
     font-size:.85rem;
     font-weight:600;
     color:var(--blanco);
-    background:#2196f3;
+    background: linear-gradient(90deg, #d13cff, #00b0ff);
     border-radius:6px;
     box-shadow:0 4px 10px rgba(33,150,243,.35);
     transition:transform .2s;
+    cursor: pointer;
 }
 .btn-volver:hover{
     transform:scale(1.02)
@@ -239,6 +241,7 @@
     font-weight: bold;
     border-radius: 15px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .btn-seleccionar:hover {
@@ -328,7 +331,7 @@
 .btn-volver {
     display: block;
     width: 100%;
-    background-color: #007bff;
+    background: linear-gradient(90deg, #d13cff, #00b0ff);
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -337,4 +340,5 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
 }
