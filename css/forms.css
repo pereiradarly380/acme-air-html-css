@@ -65,8 +65,8 @@
     color: white;
     text-align: center;
     font-weight: 600;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
-    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
 
 }
@@ -198,14 +198,14 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(20, 163, 251, 0.2);
-    transition: background-color 0.2s ease, transform 0.4s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     background: linear-gradient(90deg, #C90A8F, #2847CE);
     text-decoration: none;
 }
 
 .btn-guardar:hover {
-    transform: translateY(-1px);
+    transform: scale(1.02);
 }
 
 .btn-guardar:active {

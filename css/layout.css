@@ -58,22 +58,19 @@
 }
 
 .logo--menu {
-    width: calc(100% + 40px); /*Ajusta los 40px según el padding de tu tarjeta*/
-    margin-top: -13px;        /*Sube la imagen al borde superior*/
-    margin-left: -20px;       /*Hacia la izquierda*/
-    margin-right: -20px;      /*Hacia la derecha*/
-    line-height: 0;
-    overflow: hidden;         /*Bordes redondeados arriba*/
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-}
+    width: 100%;          
+    margin: 0 0 20px 0;   
+    border-radius: 12px;  
+    overflow: hidden;
+} 
+
 
 .logo--menu img {
     width: 100%;
     height: auto;
-    max-height: 120px;
     display: block;
-    object-fit: cover;
+    object-fit: contain; 
+    border-radius: 12px
 }
 
 

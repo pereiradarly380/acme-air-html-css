@@ -1,5 +1,5 @@
 /*Dispositivos pequeños*/
-@media (min-width: 480px) {
+@media (min-width: 320px) {
     .card {
         padding: 20px 15px;
     }
@@ -42,28 +42,33 @@
         height: 40px;
     }
 
-    .logo-menu {
+    .logo--menu {
         width: 100%;
-        margin: 0 auto 15px auto;
-        padding: 0;
-        border-radius: 12px;
-        overflow: hidden;
+        margin: 0 0 15px 0;
+        margin-bottom: 12px;
     }
     
-    .logo-menu img {
+    .logo--menu img {
         width: 100%;
-        max-width: 100%;
         height: auto;
-        display: block;
         object-fit: contain;
-    }
+        border-radius: 12px;
+    }   
     
+    .mv-vuelo{
+        padding:12px;
+        gap:10px;
+    }
+
+    .mv-icono{
+        width:34px;
+    }
 }
 
-/*Tablet (768px - 1024px)*/
+/*Tablet (768px)*/
 @media (min-width: 768px) {
     .contenedor {
-        padding: 40px;
+        padding: 30px 20px
     }
 
     .card {
@@ -71,7 +76,8 @@
     }
 
     .login-card {
-        max-width: 380px;
+        max-width: 600px;
+        padding: 30px;
     }
 
     .login-texto {
@@ -87,8 +93,9 @@
     }
 
     .menu-grid {
-        gap: 12px;
-        padding: 10px 18px 24px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
     }
 
     .menu-item {
@@ -97,22 +104,16 @@
     }
 
     .logo--menu {
-        width: calc(100% + 40px); 
-        margin-top: -20px;
-        margin-left: -20px;
-        margin-right: -20px;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-        overflow: hidden;
+        width: 100%;
+        margin: 0 0 20px 0;
     }
 
     .logo--menu img {
         width: 100%;
         height: auto;
-        max-height: 160px; 
-        display: block;
         object-fit: contain;
     }
+
     .campo-registro input,
     .campo-registro select {
         padding: 12px 14px;
@@ -123,23 +124,6 @@
         padding: 12px;
         font-size: 0.95rem;
     }
-}
-
-/*(1024px en adelante)*/
-@media (min-width: 1024px) {
-    .contenedor {
-        padding: 10px 8px;
-    }
-
-    .login-card {
-        max-width: 290px;
-        border-radius: 12px;
-        padding: 20px;
-    }
-}
-
-/*vuelos*/
-@media (min-width: 768px) {
 
     .lista-vuelos {
         display: grid;
@@ -162,21 +146,7 @@
         grid-column: 2;
         justify-self: start;
     }
-}
 
-/*mis vuelos*/
-@media (max-width: 480px) {
-    .mv-vuelo{
-        padding:12px;
-        gap:10px;
-    }
-
-    .mv-icono{
-        width:34px;
-    }
-}
-
-@media (min-width: 768px) {
     .mv-horario,
     .mv-detalle{
         font-size:.85rem;
@@ -185,4 +155,57 @@
     .mv-estado{
         font-size:1.2rem;
     }
+}
+
+/*(1024px en adelante)*/
+@media (min-width: 1024px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 80px; 
+        min-height: 100vh;
+    }
+
+    .login-card {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 20px;
+        padding: 40px;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 24px;
+    }
+
+    .logo--menu {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .logo--menu img {
+        width: 100%;
+        height: auto;
+        object-fit: contain; 
+        border-radius: 12px;  
+    }
+
+    /*.mv-vuelo
+    .mv-estado
+    .mv-detalle
+    .mv-horario {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    } */
+
+    .vuelo-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+
 }
